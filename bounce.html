@@ -8,6 +8,10 @@
       position: absolute;
       visibility: hidden;
   }
+  .output {
+    font-size: 30px;
+    font-family: "Comic Sans MS", cursive, sans-serif
+  }
   /*#mainButton{
     margin-left: 50vw;
     margin-top: 50vh;
@@ -15,6 +19,8 @@
   </style>
   <script src="resources/main.js"></script>
 <body>
+  <div id="misses" class="output"></div>
+  <div id="hits" class="output"></div>
   <img src="resources/button.png" id="mainButton" onclick="clicked()" height="216px" width="384">
   <img src="resources/logo.png" id="logo" height="200px" width="400px">
 </body>
