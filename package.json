@@ -1,0 +1,22 @@
+{
+  "name": "bounce",
+  "version": "1.0.0",
+  "description": "Bounce\r Really simple HTML and JS program that recreates the bouncy bouncy screensaver thingy of a certain trademarked\r optical media using JS's \"requestAnimationFrame()\". Tested on Chrome but should work on other browsers.",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamBowmer/Bounce.git"
+  },
+  "author": "Sam Bowmer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SamBowmer/Bounce/issues"
+  },
+  "homepage": "https://github.com/SamBowmer/Bounce#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
