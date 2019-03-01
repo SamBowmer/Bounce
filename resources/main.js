@@ -5,14 +5,14 @@ function clicked() {
   //currently using intervals for fade out but I might change to animationFrames down the line
   var b = document.getElementById("mainButton");
   var op = 0.9; //op = opacity
-  var fade = setInterval(lowerOp, 10);
-  function lowerOp() {
+  requestAnimationFrame(frame);
+  function frame() {
     if (op > 0) {
       b.style.opacity = op;
       op = op - 0.02;
+      requestAnimationFrame(frame);
     } else {
       bounce();
-      clearInterval(fade);
     }
   }
 }
